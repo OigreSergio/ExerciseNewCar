@@ -21,7 +21,8 @@ public class Car {
     public String getModel() {
         return model;
     }
-    public String getPlate(){
+
+    public String getPlate() {
         return plate;
     }
 
@@ -29,4 +30,23 @@ public class Car {
         return displacement;
     }
 
+    public int setDisplacement(int newdisplacement) {
+        this.displacement = newdisplacement;
+        return newdisplacement;
+    }
+
+    public String setBrand(String newbrand) {
+        this.brand = newbrand;
+        return newbrand;
+    }
+
+    public String setPlate(String newplate) {
+        this.plate = newplate;
+        return newplate;
+    }
+
+    public String setModel(String newmodel) {
+        this.model = newmodel;
+        return newmodel;
+    }
 }
