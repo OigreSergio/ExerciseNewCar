@@ -7,10 +7,17 @@
 
 public class Main {
     public static void main(String[] args) {
+
         Car luXuryCar = new Car("Ferrari", "FxxEVO", "f£rR1xP", 40200);
-        System.out.println("Car brand name :"+" "+luXuryCar.getBrand()+"\n"+
-                "Car model name :"+luXuryCar.getModel()+"\n"+"Plate of the car :"+" "+luXuryCar.getPlate()+
-                "\n"+"Machine displacement :"+" "+luXuryCar.getDisplacement()
+        System.out.println("LuXuryCar brand name : " + luXuryCar.getBrand() + "\n" +
+                "LuXuryCar model name : " + luXuryCar.getModel() + "\n" + "Plate of the LuXuryCar : " + luXuryCar.getPlate() +
+                "\n" + "Machine displacement : " + luXuryCar.getDisplacement()
+        );
+
+        System.out.println("LuXuryCar after set " + "\n" + "LuXuryCar brand name : " + luXuryCar.setBrand("Fiat") + "\n"
+                + "LuXuryCar model name : " + luXuryCar.setModel("punto") + "\n"
+                + "Plate of the LuXuryCar : " + luXuryCar.setPlate("IT") + "\n"
+                + "Machine displacement : " + luXuryCar.setDisplacement(23134)
         );
     }
 
